@@ -1,0 +1,104 @@
+{
+"batchcomplete": "",
+"continue": {
+"sroffset": 10,
+"continue": "-||"
+},
+"query": {
+"searchinfo": {
+"totalhits": 64876
+},
+"search": [
+{
+"ns": 0,
+"title": "Liverpool",
+"pageid": 18081,
+"size": 218868,
+"wordcount": 20688,
+"snippet": "<span class=\"searchmatch\">Liverpool</span> is a city and metropolitan borough in Merseyside, England. Its population in 2019 was approximately 498,042. This makes <span class=\"searchmatch\">Liverpool</span> the tenth-largest",
+"timestamp": "2020-08-21T23:09:25Z"
+},
+{
+"ns": 0,
+"title": "Liverpool F.C.",
+"pageid": 18119,
+"size": 93979,
+"wordcount": 8266,
+"snippet": "<span class=\"searchmatch\">Liverpool</span> Football Club is a professional football club in <span class=\"searchmatch\">Liverpool</span>, England, that competes in the Premier League, the top tier of English football. Domestically",
+"timestamp": "2020-08-18T13:55:13Z"
+},
+{
+"ns": 0,
+"title": "In Liverpool",
+"pageid": 34655725,
+"size": 173,
+"wordcount": 24,
+"snippet": "In <span class=\"searchmatch\">Liverpool</span> may refer to two different songs: From the album Ringo 2012 by Ringo Starr. From the album 99.9F° by Suzanne Vega.",
+"timestamp": "2019-12-28T20:17:35Z"
+},
+{
+"ns": 0,
+"title": "University of Liverpool",
+"pageid": 156512,
+"size": 45151,
+"wordcount": 4296,
+"snippet": "The University of <span class=\"searchmatch\">Liverpool</span> is a public university based in the city of <span class=\"searchmatch\">Liverpool</span>, England. Founded as a college in 1881, it gained its royal charter",
+"timestamp": "2020-08-15T18:02:30Z"
+},
+{
+"ns": 0,
+"title": "2020–21 Liverpool F.C. season",
+"pageid": 63312304,
+"size": 20574,
+"wordcount": 389,
+"snippet": "The 2020–21 season will be <span class=\"searchmatch\">Liverpool</span> Football Club's 129th season in existence and the club's 59th consecutive season in the top flight of English football",
+"timestamp": "2020-08-20T13:16:44Z"
+},
+{
+"ns": 0,
+"title": "2019–20 Liverpool F.C. season",
+"pageid": 60897531,
+"size": 117607,
+"wordcount": 2427,
+"snippet": "v <span class=\"searchmatch\">Liverpool</span> <span class=\"searchmatch\">Liverpool</span> v Brighton &amp; Hove Albion <span class=\"searchmatch\">Liverpool</span> v Everton Bournemouth v <span class=\"searchmatch\">Liverpool</span> <span class=\"searchmatch\">Liverpool</span> v Watford Leicester City v <span class=\"searchmatch\">Liverpool</span> <span class=\"searchmatch\">Liverpool</span> v",
+"timestamp": "2020-08-20T05:00:39Z"
+},
+{
+"ns": 0,
+"title": "Liverpool F.C.–Manchester United F.C. rivalry",
+"pageid": 11254288,
+"size": 89643,
+"wordcount": 6704,
+"snippet": "The <span class=\"searchmatch\">Liverpool</span> F.C.–Manchester United F.C. rivalry, also known as the North West Derby, is a high-profile inter-city rivalry between English professional",
+"timestamp": "2020-08-21T14:34:53Z"
+},
+{
+"ns": 0,
+"title": "Liverpool rummy",
+"pageid": 3694022,
+"size": 8749,
+"wordcount": 1433,
+"snippet": "<span class=\"searchmatch\">Liverpool</span> rummy is a multi-player, multi-round card game similar to other variants of rummy that adds features like buying and going out. It is played",
+"timestamp": "2020-07-25T01:37:36Z"
+},
+{
+"ns": 0,
+"title": "Liverpool F.C. Reserves and Academy",
+"pageid": 6133766,
+"size": 35660,
+"wordcount": 1591,
+"snippet": "<span class=\"searchmatch\">Liverpool</span> F.C. Reserves is the reserve team of <span class=\"searchmatch\">Liverpool</span>. It is the most senior level of the <span class=\"searchmatch\">Liverpool</span> academy beneath the first team. In the summer of",
+"timestamp": "2020-08-19T09:19:35Z"
+},
+{
+"ns": 0,
+"title": "Liverpool Cathedral",
+"pageid": 1582353,
+"size": 53825,
+"wordcount": 5878,
+"snippet": "<span class=\"searchmatch\">Liverpool</span> Cathedral is the Cathedral of the Diocese of <span class=\"searchmatch\">Liverpool</span>, built on St James's Mount in <span class=\"searchmatch\">Liverpool</span>, and the seat of the Bishop of <span class=\"searchmatch\">Liverpool</span>. It",
+"timestamp": "2020-08-20T14:33:49Z"
+}
+]
+}
+}
