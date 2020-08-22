@@ -1,16 +1,15 @@
-package wiki.connector;
+package com.xtm.wikifootball.wiki.connector;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import rest.RestTemplate;
-import wiki.TestUtils;
-import wiki.model.PageInfo;
-import wiki.model.SearchResult;
+import com.xtm.wikifootball.rest.RestTemplate;
+import com.xtm.wikifootball.TestUtils;
+import com.xtm.wikifootball.wiki.model.PageInfo;
+import com.xtm.wikifootball.wiki.model.SearchResult;
 
 import java.io.IOException;
-import java.net.URISyntaxException;
 
 import static org.mockito.Mockito.*;
 
@@ -21,10 +20,10 @@ public class WikiConnectorTest {
     private RestTemplate restTemplateMock = mock(RestTemplate.class);
 
     private WikiConnector wikiConnector;
-    SearchResult liverpoolSearchResult;
+    private SearchResult liverpoolSearchResult;
 
     @Before
-    public void init() throws IOException, URISyntaxException {
+    public void init() throws IOException {
         liverpoolSearchResult = getLiverpoolSearchResult();
         when(restTemplateMock.get(any(), any(), any())).thenReturn(liverpoolSearchResult);
         wikiConnector = new WikiConnectorImpl(restTemplateMock);
@@ -47,7 +46,7 @@ public class WikiConnectorTest {
         Assert.assertEquals(liverpoolSearchResult, result);
     }
 
-    private SearchResult getLiverpoolSearchResult() throws IOException, URISyntaxException {
+    private SearchResult getLiverpoolSearchResult() throws IOException {
         String liverpoolResult = TestUtils.getLiverpoolResults();
         return objectMapper.readValue(liverpoolResult, SearchResult.class);
     }

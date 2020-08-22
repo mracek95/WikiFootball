@@ -1,16 +1,16 @@
-package wiki.connector;
+package com.xtm.wikifootball.wiki.connector;
 
-import rest.RestTemplate;
-import wiki.model.PageInfo;
-import wiki.model.SearchResult;
+import com.xtm.wikifootball.rest.RestTemplate;
+import com.xtm.wikifootball.wiki.model.PageInfo;
+import com.xtm.wikifootball.wiki.model.SearchResult;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class WikiConnectorImpl implements WikiConnector {
 
-    private final static String baseWikiApiUrl = "https://en.wikipedia.org/w/api.php";
-    private final static String baseWikiUrl = "https://en.wikipedia.org/wiki/";
+    private static final String baseWikiApiUrl = "https://en.wikipedia.org/w/api.php";
+    private static final String baseWikiUrl = "https://en.wikipedia.org/wiki/";
 
     private final RestTemplate restTemplate;
 
@@ -26,10 +26,10 @@ public class WikiConnectorImpl implements WikiConnector {
         queryParams.put("srlimit", "10");
         queryParams.put("srsearch", searchValue);
 
-        return this.restTemplate.get(baseWikiApiUrl, SearchResult.class, queryParams);
+        return restTemplate.get(baseWikiApiUrl, SearchResult.class, queryParams);
     }
 
     public String getFullUrlForPage(PageInfo pageInfo) {
-        return baseWikiUrl + pageInfo.getTitle().replaceAll(" ", "_");
+        return baseWikiUrl + pageInfo.getTitle().replace(" ", "_");
     }
 }

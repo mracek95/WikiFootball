@@ -1,9 +1,9 @@
-package wiki.service;
+package com.xtm.wikifootball.wiki.service;
 
 import javassist.NotFoundException;
-import wiki.connector.WikiConnector;
-import wiki.model.PageInfo;
-import wiki.model.SearchResult;
+import com.xtm.wikifootball.wiki.connector.WikiConnector;
+import com.xtm.wikifootball.wiki.model.PageInfo;
+import com.xtm.wikifootball.wiki.model.SearchResult;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class WikiFootballService {
     public String getWikiPageForFootballTeam(String footballTeam) throws NotFoundException {
         List<PageInfo> pageInfoList = searchWikiPages(footballTeam);
         if (pageInfoList.isEmpty()) {
-            throw new NotFoundException("No wiki results for: " + footballTeam);
+            throw new NotFoundException("No com.xtm.wikifootball.wiki results for: " + footballTeam);
         }
 
         PageInfo bestPage = findBestMatch(pageInfoList);

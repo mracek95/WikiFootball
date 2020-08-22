@@ -1,4 +1,4 @@
-package wiki.model;
+package com.xtm.wikifootball.wiki.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

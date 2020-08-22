@@ -1,4 +1,4 @@
-package wiki;
+package com.xtm.wikifootball;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class TestUtils {
 
-    private final static String RESULTS_FILE_NAME = "liverpoolResult.json";
+    private static final String RESULTS_FILE_NAME = "liverpoolResult.json";
 
     public static String getLiverpoolResults() {
         InputStream inputStream = TestUtils.class.getClassLoader().getResourceAsStream(RESULTS_FILE_NAME);

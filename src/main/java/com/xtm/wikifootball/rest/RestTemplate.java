@@ -1,4 +1,4 @@
-package rest;
+package com.xtm.wikifootball.rest;
 
 import java.util.Map;
 

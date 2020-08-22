@@ -1,4 +1,4 @@
-package rest;
+package com.xtm.wikifootball.rest;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -38,7 +38,7 @@ public class RestTemplateImpl implements RestTemplate {
     }
 
     private String urlify(String str) {
-        return str.replaceAll(" ", "%20");
+        return str.replace(" ", "%20");
     }
 
 }
