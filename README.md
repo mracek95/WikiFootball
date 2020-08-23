@@ -13,13 +13,13 @@ Use gradle wrapper to build the application.
 Builded jar file is located in:
 
 ```bash
-./build/libs/WikiFootball-1.0-SNAPSHOT.jar
+./build/libs/WikiFootball-1.0-SNAPSHOT-all.jar
 ```
 
 ## Run the application
 
 ```bash
-java -jar build/libs/WikiFootball-1.0-SNAPSHOT.jar "Liverpool"
+java -jar build/libs/WikiFootball-1.0-SNAPSHOT-all.jar "Liverpool"
 ```
 
 ## Run tests
